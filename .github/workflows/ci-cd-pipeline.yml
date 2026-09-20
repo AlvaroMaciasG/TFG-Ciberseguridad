@@ -33,7 +33,7 @@ jobs:
       - name: Checkout del código
         uses: actions/checkout@v4
       - name: Ejecución de Semgrep
-        uses: semgrep/action@v1
+        uses: returntocorp/semgrep-action@v1
         with:
           config: "p/php" # Reglas específicas para PHP
           generateSarif: "1"
